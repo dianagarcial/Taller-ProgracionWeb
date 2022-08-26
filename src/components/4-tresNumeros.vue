@@ -9,11 +9,7 @@
     <h2 v-if="primero=='' || segundo==''|| tercero==''">Ingrese los tres numeros a comparar</h2>
     <h2 v-else-if="primero===segundo && segundo ==tercero">Existen 3 numeros iguales</h2>
     <h2 v-else-if="primero===segundo || primero===tercero || segundo===tercero">Existen 2 numeros iguales</h2>
-    
     <h2 v-else>No existen numeros iguales</h2>
-    
-    
-   
     </div>
     </template>
 

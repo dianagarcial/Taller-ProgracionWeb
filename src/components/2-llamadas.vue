@@ -1,7 +1,5 @@
 <template>
 
-
-
    <div id="aplicacion">
     <h1>2. Cantidad total a pagar por una llamada telefónica</h1>
     <input type="number" v-model="numero" >
@@ -11,9 +9,7 @@
     <h2 v-else>La llamada tiene un valor de ${{100+(numero-3)*50}}</h2>
    
     </div>
-
-
-  
+ 
 </template>
 
 <script >
@@ -26,8 +22,7 @@ export default {
         }
       }
     
-  
-  
+    
 }
 </script>
 

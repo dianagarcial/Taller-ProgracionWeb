@@ -5,9 +5,6 @@
     <h2 v-if="numero==''">Ingrese el numero para descubrir los impares menores</h2>
     <h2 v-else>{{compara}}</h2>
     
-
-    
-   
     </div>
     </template>
 
@@ -17,9 +14,8 @@ export default {
   
       name:'imparMenores',
       data(){
-        return{
-      
-      numero:'',
+        return{      
+          numero:'',
       
         }
       },
@@ -37,8 +33,7 @@ export default {
                 x=x+1;
 
             }
-            return res;
-            
+            return res;           
             
 
         }

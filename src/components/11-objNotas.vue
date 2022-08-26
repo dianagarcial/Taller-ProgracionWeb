@@ -1,5 +1,5 @@
 <template>
-<div id="aplicacion">
+    <div id="aplicacion">
     <h1>11. Calculo notas con objetos</h1>
     <h1>Ingrese su nombre</h1>
     <input type="text" v-model="estudiante.nombre">
@@ -10,11 +10,9 @@
     <input type="number" v-model="estudiante.nota3">
     
     
-    
-   
    </div>
 
-   <h2 v-if="estudiante.nota1===''||estudiante.nota2===''||estudiante.nota3===''||nombre===''"></h2>
+    <h2 v-if="estudiante.nota1===''||estudiante.nota2===''||estudiante.nota3===''||nombre===''"></h2>
     <h2 v-else>Hola {{estudiante.nombre}}, en esta ocasion usted {{notas}} la materia</h2>
     
    
@@ -38,8 +36,6 @@ export default {
 
             }
       
-      
-      
         }
 
         
@@ -59,9 +55,7 @@ export default {
           }
             
         }
-            
-        
-        
+                  
             
         }
       

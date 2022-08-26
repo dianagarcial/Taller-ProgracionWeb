@@ -6,15 +6,9 @@
     <button @click="guardar()">Añadir</button>
     <button @click="imprimir()">Imprimir con aumento</button>
     
-    
-   
    </div>
-   <h2 id="salarios">
+   <h2 id="salarios"></h2>
 
-   </h2>
-
-    
-   
     </div>
     </template>
 

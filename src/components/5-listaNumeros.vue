@@ -8,8 +8,6 @@
     <h2 v-if="arr.length==0"></h2>
     <h2 v-else>{{arr.sort()}}</h2>
 
-    
-   
     </div>
     </template>
 
@@ -25,18 +23,12 @@ export default {
       arr:[]
       
         }
-
         
       },
       methods:{
         guardar(){
             var numeros = this.numeroan;
-
-            
-                this.arr.push(numeros);
-            
-            
-
+            this.arr.push(numeros);
             this.numeroan ="";
         }
             

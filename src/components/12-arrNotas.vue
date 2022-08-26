@@ -9,15 +9,11 @@
     <input type="number" v-model="estudiante[2]">
     <input type="number" v-model="estudiante[3]">
     
-    
-    
-   
    </div>
 
-   <h2 v-if="estudiante[0]===''||estudiante[1]===''||estudiante[2]===''||estudiante[3]===''"></h2>
+    <h2 v-if="estudiante[0]===''||estudiante[1]===''||estudiante[2]===''||estudiante[3]===''"></h2>
     <h2 v-else>Hola {{estudiante[0]}},en esta ocasion usted {{notas}} la materia</h2>
     
-   
     </div>
     </template>
 
@@ -30,12 +26,8 @@ export default {
       name:'ArrNotas',
       data(){
         return{
-            estudiante:[4]
-      
-      
-      
+            estudiante:[3]
         }
-
         
       },
       computed:{

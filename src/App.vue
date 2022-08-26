@@ -1,8 +1,8 @@
 <template>
   
-<HoraSeg></HoraSeg>
+<HoraSeg/>
 <Llamada/>
-<Saludo></Saludo>
+<Saludo/>
 <TresNumeros/>
 <ListaNumeros/>
 <ImparMenores/>
@@ -38,8 +38,7 @@ export default {
     
     Llamada,
     HoraSeg,
-    Saludo,
-    
+    Saludo,    
     TresNumeros,
     ImparMenores,
     ListaNumeros, 

@@ -1,7 +1,4 @@
 <template>
-
-
-
    <div id="aplicacion">
     <h1>1. Convertidor de segundos</h1>
     <div id="res">
@@ -10,13 +7,6 @@
     </div>
     </div>
 
-    
-    
-
-   
-   
-
-  
 </template>
 
 <script >
@@ -42,7 +32,7 @@ export default {
             return  hour + ':' + minute + ':' + second;
             }
 
-}
+      }
     
   
   

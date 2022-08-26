@@ -2,18 +2,15 @@
 <div id="aplicacion">
     <h1>8. Division de numeros aleatorios</h1>
     <div id="res">
-    <input type="number" v-model="posicion">
-    <button v-on:click.once="generar()">Generar Arreglo</button>
-    <button @click="dividir()">Dividir</button>
-    
-   
-   </div>
+      <input type="number" v-model="posicion">
+      <button v-on:click.once="generar()">Generar Arreglo</button>
+      <button @click="dividir()">Dividir</button>
+
+    </div>
    
    <h2 id="random"></h2>
    <h2 id="random2"></h2>
 
-    
-   
     </div>
     </template>
 
@@ -21,7 +18,7 @@
 <script >
 
 
-export default {
+    export default {
   
       name:'PosicionAleatoria',
       data(){
@@ -73,13 +70,9 @@ export default {
           
             for (let index = 0; index < 10; index++) {
               this.arr.push(Math.floor(Math.random()* (100 - 1) + 1));
-                      
-              
-            }
+              }
 
             this.ver=true;
-           
-
             var body = document.getElementById('random')
             var textoCelda = document.createTextNode(this.arr)
             body.appendChild(textoCelda);
@@ -88,10 +81,10 @@ export default {
         }
 
             
-        }
+      }
         
             
-        }
+    }
       
 
 </script>
